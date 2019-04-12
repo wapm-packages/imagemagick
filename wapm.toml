@@ -1,0 +1,15 @@
+[package]
+name = "imagemagick"
+version = "0.1.0"
+description = "ImageMagick is a free and open-source software suite for displaying, converting, and editing raster image and vector image files"
+readme = "README-wapm.md"
+repository = "https://github.com/wapm-packages/imagemagick"
+
+[[module]]
+name = "magick"
+source = "magick.wasm"
+abi = "Emscripten"
+
+[[command]]
+name = "magick"
+module = "magick"

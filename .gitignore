@@ -1,5 +1,5 @@
 **/magick.js
-**/magick.wasm
+ImageMagick/**/magick.wasm
 /samples/cmdline/magickApi.js
 /samples/rotate/magickApi.js
 /tests/rotate/rotated.*
