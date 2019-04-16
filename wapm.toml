@@ -8,7 +8,7 @@ repository = "https://github.com/wapm-packages/imagemagick"
 [[module]]
 name = "magick"
 source = "magick.wasm"
-abi = "Emscripten"
+abi = "emscripten"
 
 [[command]]
 name = "magick"
